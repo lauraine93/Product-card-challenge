@@ -6,7 +6,9 @@ body{
     background-color:hsl(30, 38%, 92%);
     align-items: center;
     justify-content: center;
-    margin-top: 16rem;
+   margin: 0;
+   position: relative;
+    height: 100%;
 }
 .product{
     background-color: white;
@@ -19,6 +21,12 @@ body{
 .container{
    
     display: flex;
+    position: absolute;
+    top: 50%;
+    align-items: center;
+    justify-content: center;
+   margin-top: 12rem;
+    
    
 }
 .perfume{
