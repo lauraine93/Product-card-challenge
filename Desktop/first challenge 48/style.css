@@ -1,0 +1,503 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(53, 53, 53, 0.1);
+    height: auto;
+}
+.first--page{
+    background-image: url(trip\ \(12\).png);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.location-absolute{
+    position: absolute;
+    top: 70%;
+    right: 8%;
+}
+.scroll-down{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 60px
+
+}
+header{
+    
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+}
+.nav{
+    display: flex;
+    gap: 4rem;
+}
+a{
+    color: #ffa500;
+    text-decoration: none;
+}
+
+.intro{
+    color: white;*/
+    font-family: "Lato", serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.number{
+    color: #ffa500;
+}
+.title{
+    font-family: "Lato", serif;
+    font-weight: 800;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    
+}
+button{
+  padding: 24px 40px;
+  border: none;
+  color: white;
+  background-color: #0336ff;
+  border-radius: 8px;
+}
+.first-page button{
+    margin-top: 4em;
+}
+.indique{
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.first-page{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+width: 100%;
+height: 70vh;
+}
+
+
+
+
+
+
+
+/*deuxieme page*/
+.second--page{
+   display: flex;
+   height: auto;
+   width: 100%;
+   margin-bottom: 4rem;
+   margin-top: 4rem;
+ 
+}
+.for-grid1{
+width: 60%;
+height: auto;
+
+
+background-size: cover;
+background-repeat: no-repeat;
+}
+.premier-cadre{
+    background-color: white;
+    position: relative;
+    margin-top: 32px;
+}
+.premier-cadre .intro{
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    font-family: "Lato", serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.image-car{
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.Julyy{
+    font-weight: 400;
+}
+.July{
+    font-weight: 400;
+    padding-left: 20px;
+    border-left: #ffa500 solid 6px;
+    padding-bottom: 4px;
+}
+.intro-grid{
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.lorem{
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.location{
+    display: flex;
+    gap: 1rem;
+}
+.message{
+    display: flex;
+    gap: 1rem;
+}
+.bas-de-pge{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+   
+}
+.content{
+    padding: 20px;
+    gap: 1rem;
+    
+}
+.twice{
+    display:flex;
+    margin-top: 32px;
+   justify-content: space-around;
+   
+}
+.twice .part2{
+    margin-left: 12px;
+    background-color: white;
+    box-shadow: 5px 16px 24px  rgba(31, 29, 29, 0.1);
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+.twice .part1 img{
+    width: 100%;
+    height: 50%;
+    
+}
+.twice .part2 img{
+    width: 100%;
+    height: 50%;
+    
+}
+.twice .part1{
+    background-color: white;
+    box-shadow: 5px 16px 24px  rgba(31, 29, 29, 0.1);
+    width: 50%;
+    position: relative;
+    object-fit: cover;
+}
+.car{
+    width: 379px;
+    height: 271px;
+}
+.twice .intro-grid{
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.twice .July{
+    margin-top: 16px;
+}
+.deuxieme-cadre{
+    margin-top: 32px;
+    background-color: white;
+    box-shadow: 5px 16px 24px  rgba(31, 29, 29, 0.1);
+}
+.deuxieme-cadre .lorem{
+    margin-bottom: 12px;
+}
+.premier-cadre button{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    box-shadow: 5px 16px 24px  rgba(31, 29, 29, 0.1);
+    
+} 
+
+/*aside*/
+.aside{
+    width: 28%;
+    padding: 30px 70px 50px 75px; 
+}
+
+.card{
+ display: flex;
+  width: auto;
+  height: auto;
+  background-color:white;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 0px 30px;
+  box-shadow: 5px 16px 24px  rgba(31, 29, 29, 0.1);
+   padding-top: 1rem;
+   
+}
+.aside .card1{
+    background-color: white;
+    padding-top: 1rem;
+    
+
+}
+.title-aside{
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+.loremm{
+    font-size: 1rem;
+    font-family: "Lato", serif;
+    font-weight: 600;
+}
+.Categories{
+    display: flex;
+ 
+    justify-content: space-between;
+    width: 300px;
+}
+.aside .card2{
+    margin-top: 30px;
+    padding-bottom: 50px;
+    gap: 24px;
+}
+
+.chevron-left{
+    color: #0336ff;
+    background-color: white;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px 80px 30px;
+    float: left;
+   
+}
+.chevron-right{
+    color: #0336ff;
+    background-color: white;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 44px;
+      
+  }
+  .deux {
+    background-image: url(header.png);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+    
+  }
+.author .lorem{
+    font-size: 18px;
+    color: white;
+     padding-left: 20px;
+     padding-top: 16px;
+}
+.author .intro-grid{
+    color: white;
+    margin-top: 90px;
+    padding-left: 20px;
+
+}
+.card3{
+    padding: 24px 30px 24px;
+    margin: 30px 0px;
+}
+.card4{
+    padding: 0px ;
+}
+.down-recent-post{
+    display: flex;
+    gap: 10px;
+    width: 520px;
+    
+}
+.down-recent-post .lorem{
+    font-size: 18px;
+    color: black;
+}
+.down-recent-post .img{
+    width: 100%;
+    height: auto;
+}
+.Post{
+    margin-top: 4rem;
+}
+.down-recent-post .grid{
+    margin-bottom: 0;
+    font-size: 24px;
+}
+.gear .third{
+    font-weight: 300;
+    text-align: center;
+    font-size: 24px;
+}
+.Posty .date .lorem{
+    color: #0336ff;
+    font-weight: 700;
+}
+
+.social{
+  display: flex;
+  width: 420px;
+  gap: 24px;
+  flex-wrap: wrap;
+ 
+}
+.facebookk{
+  background-color: #4056ac;
+  width: 144px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding:16px 32px 16px 20px ;
+  gap: 32px;
+  height: 50px;
+  box-shadow: 5px 16px 24px  rgba(31, 29, 29, 0.1);
+}
+
+.facebook{
+    width: 16px;
+}
+.like{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Lato", serif;
+}
+.twitter{
+    background-color:#60b7fe;
+}
+.youtube{
+    background-color: #fe2c3c;
+}
+.caroussel{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.image-caroussel{
+      width: 260px;
+      display: block;
+      height: 280px;
+}
+.caroussel button{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+
+}
+.down-caroussel .lorem{
+    color: #0336ff;
+    font-weight: 700;
+}
+input{
+    width: 250px;
+    height: 63px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 0, 0,0.2) ;
+    font-size: 16px;
+    color: #535353;
+}
+input::placeholder{
+    opacity: 0.5;
+}
+.email{
+    display: flex;
+    gap: 15px;
+}
+.down-caroussel{
+    display: flex;
+    gap: 4rem;
+    padding: 100px 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-bottom: solid 1px black;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 200px 24px 200px;
+    background-color: white;
+
+}
+.top-footer .nav{
+    gap: 16rem;
+} 
+.top-footer .nav a{
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 250px 100px 250px;
+    gap: 1px;
+    background-color: #535353;
+}
+.footer-container p{
+    color: white;
+    font-size: 16px;
+    font-family: "Lato", serif;
+
+}
+.tout-le-footer{
+    width: auto;
+    border-bottom: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.reseaux{
+    display: flex;
+    gap: 12px;
+  
+}
+
+.down-footer p{
+  color: white;
+}
+.down-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+    background-color: #535353;
+}
